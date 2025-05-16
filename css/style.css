@@ -1,0 +1,28 @@
+
+body {
+    background-color: hwb(33 59% 28%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;}
+
+  h1, h2, h3 {
+    color: rgb(152, 150, 39);
+    text-align: center;
+  }
+  p {
+    color: #555;
+    line-height: 1.6;
+    padding: 0 20px;}
+  
+  nav {
+    background-color: hsl(210, 51%, 33%);
+    padding: 10px;}
+  
+  nav a {
+    color: hsl(210, 51%, 33%);
+    margin: 10px;
+    text-decoration: none;}
+  
+  nav a:hover {
+    text-decoration: underline;}
+  
