@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Van Spor | Hafsa</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Sayfa içeriği arasına boşluk ekleyelim */
+    .van-spor-info p,
+    .van-spor-info h2,
+    .van-spor-info h3,
+    .van-spor-info ul {
+      margin-bottom: 20px;
+    }
+
+    /* Resim için stil */
+    .van-spor-image {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px 0;
+      border-radius: 8px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body id="takim">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Hafsa'nın Sitesi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">Özgeçmiş</a></li>
+          <li class="nav-item"><a class="nav-link" href="sehrim.html">Şehrim</a></li>
+          <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
+          <li class="nav-item"><a class="nav-link" href="takimimiz.html">Takımımız</a></li>
+          <li class="nav-item"><a class="nav-link" href="ilgi_alanlarim.html">İlgi Alanlarım</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Van Spor Hakkında Bölümü -->
+  <section class="van-spor-info">
+    <div class="container">
+      <h2>Van Spor Hakkında</h2>
+      <p><strong>Van Spor FK</strong>, 1966 yılında kurulan ve Van ilini temsil eden profesyonel futbol kulübüdür. Kulüp, uzun yıllardır Türkiye'nin farklı liglerinde mücadele etmektedir ve zaman zaman hem yerel hem de ulusal arenada dikkat çekici performanslar sergilemiştir.</p>
+
+      <h3>Takımın Renkleri:</h3>
+      <p>Kırmızı-Beyaz</p>
+
+      <h3>Stadyum:</h3>
+      <p>Van Atatürk Stadyumu</p>
+
+      <h3>Ligdeki Durum:</h3>
+      <p>Takım, günümüzde 2. Lig’de mücadele etmektedir.</p>
+
+      <h3>Öne Çıkan Başarılar:</h3>
+      <ul>
+        <li><strong>1980'ler ve 1990'lar:</strong> Kulüp, bu dönemlerde Türkiye'nin birinci liginde mücadele etmiştir.</li>
+        <li><strong>Son Yıllarda Yükseliş:</strong> 2010'lu yıllarda kulüp, alt liglerden üst liglere çıkma hedefiyle büyük bir ivme kazanmıştır.</li>
+      </ul>
+     
+
+      <h3>Takımın Sloganları:</h3>
+      <p>"Yükselişe Geçiyoruz", "Şampiyonluğa Adım Adım" gibi sloganlar, kulübün taraftarları tarafından sıkça kullanılan ve kulüp kültürünün bir parçası haline gelmiştir.</p>
+
+      <h3>Van Spor'un Tarihi:</h3>
+      <p>Van Spor, kurulduğu günden bu yana birçok zorluğa rağmen futbol severlere unutulmaz anlar yaşatmayı başarmıştır. Birçok başarılı futbolcuyu bünyesinde barındırmış olan kulüp, Van şehrinin sosyal ve kültürel yapısında önemli bir yer tutar. Kulüp, genellikle güçlü bir taraftar kitlesine sahiptir ve Van şehrinin temsilcisi olarak büyük bir anlam taşır.</p>
+      <div id="vanSporCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/vanspor.webp" class="d-block w-100" alt="Van Spor 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/vanspor2.webp" class="d-block w-100" alt="Van Spor 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/vanspor3.webp" class="d-block w-100" alt="Van Spor 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#vanSporCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#vanSporCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
