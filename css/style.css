@@ -1,28 +1,64 @@
 
-body {
-    background-color: hwb(33 59% 28%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;}
+/* Navbar */
+.navbar {
+  background-color: #6955bb ;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  h1, h2, h3 {
-    color: rgb(152, 150, 39);
-    text-align: center;
-  }
-  p {
-    color: #555;
-    line-height: 1.6;
-    padding: 0 20px;}
-  
-  nav {
-    background-color: hsl(210, 51%, 33%);
-    padding: 10px;}
-  
-  nav a {
-    color: hsl(210, 51%, 33%);
-    margin: 10px;
-    text-decoration: none;}
-  
-  nav a:hover {
-    text-decoration: underline;}
-  
+.nav-links {
+  list-style-type: none;
+  color: rgb(255, 0, 0);
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #f0a500 ;
+}
+body{
+  background-color:#e6c0e2;
+}
+.cinder {
+  width: 100%;  
+  max-width: 400px;
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+#cv-page{
+  background-color:#e6c0e2;
+}
+#van-page,#login,#mirasimiz,#takim{
+  background-color: #e6c0e2;
+}
+
+.card-body{
+  background-color: #918d6f;
+  border: none;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 300px;
+  border-radius: 8px;
+}
+#myMusicResults img {
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+
+    
